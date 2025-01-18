@@ -1,4 +1,4 @@
-def gcd(num1, num2):
+def gcd(a, b):
   if (b==0):
     return a
   else:
