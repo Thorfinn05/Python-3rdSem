@@ -6,6 +6,7 @@ while True:
 
     rem_choice= [choice for choice in choices if choice != user]
     comp=random.choice(rem_choices)
+    
     if(user=="paper" and comp=="rock" or user =="rock" and comp=="scissors" or user=="scissors" and comp=="paper"):
       result = "User wins!"
     else:
