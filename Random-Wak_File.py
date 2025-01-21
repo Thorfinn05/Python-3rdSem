@@ -2,7 +2,7 @@ import random
 x=0
 y=0
 steps=0
-with open("random_walk.txt", "w") as a file:
+with open("random_walk.txt", "w") as file:
   while(abs(x)<10 and abs(y)<10):
     move=random.randint(1,4)
     if (move==1):
